@@ -1,8 +1,8 @@
 # git_for_handover_materials
 2020年卒　飛翔班，中村翔太の引き継ぎ用Git．
+
+
 ## 新規クアッドロータ（赤いF330）用メインGit：https://github.com/doraiden555/drone_git_kai.git
-
-
 Gitのツリーからわかるように，UWB_opt_control-01.pyとUWB_control_withouopt-01.pyが最新コードである．
 
 
@@ -93,5 +93,24 @@ uart_uwb_opt_2.inoはTeensyLC用のプログラム．シリアル通信をPC，A
 Arduinoからは上のプログラムを用いた上で，各アンカとの距離データ（4つ）が送られてくるので，
 移動距離の数値とで配列に格納した上，PC及びNAVIO2に送る．
 
+## ステレオカメラプログラム用Git：https://github.com/doraiden555/stereo_camera_git.git
+詳しい使用方法はREADME参照．
+
+ただ，修論で述べたように，クアッドロータが飛行中における奥行方向の推定値はハチャメチャなので，真値の計測方法に至っては大幅に改良の余地がある．位置計測アルゴリズム（プログラムであったりマーカーの検出方法であったり）やチェスボードを用いたキャリブレーションの方法など．
+
+この正確な真値測定方法だけで軽い論文一本書けるくらいの労力は必要であると思われる．それくらい正確な真値を計測するのは難しい．
+
+青木が言っていたようにx-y平面内の位置だけなら天井に取り付けた広角カメラの1台で測定可能な気がする（方法は知らん）
+
+## 修論用Git：https://github.com/doraiden555/Syuron_git.git
+名前の通り2020年3月卒業，中村翔太の卒論．
+
+
+## SII用Git：https://github.com/doraiden555/git_for_SII.git
+2020年1月にハワイにて開催されたSII(https://sice-si.org/conf/SII2020/)という学会の資料．
+
+
+## 飛翔ミーティング及びインフラミーティングの資料：https://github.com/doraiden555/tex_git.git
+飛翔ミーティングにて作成した資料．どういう経緯で研究が進んだのか参考に．
 
 
