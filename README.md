@@ -72,6 +72,7 @@ control()関数では推定された位置を引数に位置の制御を行う�
 UWB_control_withouopt-01.pyは上のコードからカルマンフィルタにおける，オプティカルフローの観測項を抜いただけなので基本は同じ．
 しかし，観測行列が異なるため，分散の値も調整しなければならない．
 
+***
 
 ## TeensyLC，Arduino用Git：https://github.com/doraiden555/arduino_git.git
 Tag6.inoはArduinoのTagに書き込む用のプログラム.
