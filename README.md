@@ -30,7 +30,7 @@ UWB_opt_control-01.pyは「UWB＋オプティカルフロー」を用いて位�
 80行目から88行目においてPIDコントロールようのクラスオブジェクトを生成する．
 
 
-クラスの定義は参考にしたDronePilot(https://github.com/doraiden555/DronePilot.git)のモジュールを参照して．
+クラスの定義は参考にした[DronePilot](https://github.com/doraiden555/DronePilot.git)のモジュールを参照して．
 
 
 uart()関数にてTeensyLCからUart通信にて送られてきたデータをそれぞれ変数に格納する．
@@ -94,6 +94,8 @@ uart_uwb_opt_2.inoはTeensyLC用のプログラム．シリアル通信をPC，A
 Arduinoからは上のプログラムを用いた上で，各アンカとの距離データ（4つ）が送られてくるので，
 移動距離の数値とで配列に格納した上，PC及びNAVIO2に送る．
 
+***
+
 ## ステレオカメラプログラム用Git：https://github.com/doraiden555/stereo_camera_git.git
 詳しい使用方法はREADME参照．
 
@@ -103,13 +105,17 @@ Arduinoからは上のプログラムを用いた上で，各アンカとの距�
 
 青木が言っていたようにx-y平面内の位置だけなら天井に取り付けた広角カメラの1台で測定可能な気がする（方法は知らん）
 
+***
+
 ## 修論用Git：https://github.com/doraiden555/Syuron_git.git
 名前の通り2020年3月卒業，中村翔太の卒論．
 
+***
 
 ## SII用Git：https://github.com/doraiden555/git_for_SII.git
-2020年1月にハワイにて開催されたSII(https://sice-si.org/conf/SII2020/)という学会の資料．
+2020年1月にハワイにて開催された[SII](https://sice-si.org/conf/SII2020/)という学会の資料．
 
+***
 
 ## 飛翔ミーティング及びインフラミーティングの資料：https://github.com/doraiden555/tex_git.git
 飛翔ミーティングにて作成した資料．どういう経緯で研究が進んだのか参考に．
