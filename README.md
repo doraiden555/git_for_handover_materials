@@ -1,6 +1,7 @@
 # git_for_handover_materials
 2020年卒　飛翔班，中村翔太の引き継ぎ用Git．
 
+*** 
 
 ## 新規クアッドロータ（赤いF330）用メインGit：https://github.com/doraiden555/drone_git_kai.git
 Gitのツリーからわかるように，UWB_opt_control-01.pyとUWB_control_withouopt-01.pyが最新コードである．
