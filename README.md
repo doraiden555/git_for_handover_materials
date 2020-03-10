@@ -69,6 +69,8 @@ Gitのツリーからわかるように，UWB_opt_control-01.pyとUWB_control_wi
 ***
 
 ## TeensyLC，Arduino用Git：https://github.com/doraiden555/arduino_git.git
+UWBのタグアンカに関してはArduino IDEを1.6.9を用いること．古めのライブラリでないと関数が動かないことがある．
+
 ### Tag6.ino
 ArduinoのTag（クアッドロータに乗ったやつ）に書き込む用のプログラム.
 
@@ -89,6 +91,10 @@ TeensyLC用のプログラム．シリアル通信をPC，Arduino，NAVIO2（Ras
 
 シリアル通信で繋がったArduinoからは上のプログラムを用いた上で，各アンカとの距離データ（4つ）が送られてくるので，
 移動距離の数値（オプティカルフローより）とで配列に格納した上，PC及びNAVIO2に送る．
+
+### ANCHOR3
+4つのアンカ用のプログラム．DW1000Ranging.startAsAnchor("82:16:5B:D5:A9:9A:E2:9C", DW1000.MODE_LONGDATA_FAST_ACCURACY,false);
+IDを指定する数字の82:1xのxの数字を4通りに変えることによりIDを区別した．タグ側のプログラムを見ればわかるが，Anchor1:6018(82:17),Anchor2:6274(82:18),Anchor3:5762(82:16),Anchor4:6530(82:19)というわけ方である.
 
 ***
 
