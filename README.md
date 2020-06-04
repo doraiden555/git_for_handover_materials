@@ -71,7 +71,7 @@ Gitのツリーからわかるように，UWB_opt_control-01.pyとUWB_control_wi
 ## TeensyLC，Arduino用Git：https://github.com/doraiden555/arduino_git.git
 UWBのタグ，アンカに関してはArduino IDEを1.6.9を用いること．古めのライブラリでないと関数が動かないことがある．
 
-### Tag6.ino
+### ~~Tag6.ino~~ →　Tag6_kai
 ArduinoのTag（クアッドロータに乗ったやつ）に書き込む用のプログラム.
 
 
